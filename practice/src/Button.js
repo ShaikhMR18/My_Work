@@ -9,7 +9,7 @@ export default function Button(props){
     return(
         <div>
             <button onClick={handle} value={1}>+1</button>
-            <button onClick={handle} value={5}>+2</button>
+            <button onClick={handle} value={2}>+2</button>
         </div>
     );
 }
