@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Button";
 import "./Display";
 import "./App.css";
+import BtnClick from "./BtnClick";
 // import Button from "./Button";
 // import Display from "./Display";
 // import BtnCalc from "./BtnCalc";
@@ -27,9 +28,10 @@ function App() {
       <BtnCalc increamentBy={incrementBy} increment={4} />
       <BtnCalc increamentBy={incrementBy} increment={5} />
       <Result counter={counter} /> */}
-      <Props name="Google" product="Company" price={200} />
+      {/* <Props name="Google" product="Company" price={200} />
       <Props name="Microsoft" product="Company" price={500} />
-      <Props name="Amazon" product="Company" price={400} />
+      <Props name="Amazon" product="Company" price={400} /> */}
+      <BtnClick/>
     </div>
   );
 }
